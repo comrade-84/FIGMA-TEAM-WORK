@@ -133,3 +133,187 @@ border-radius: 5px;
     font-size: 14px;
     text-decoration: none;
 }
+
+
+
+
+/* --------- the first page in the home section ---------- */
+
+
+.first-line-section{
+    border: 2px solid red;
+    display: grid;
+    grid-template-columns: 20% 58% 20%;
+    gap: 15px;
+    height: 73vh;
+    margin-top: 20px;
+    padding: 0 20px;
+}
+.first-line-section .left-sale, .first-line-section .middle-sale , .first-line-section .right-sale{
+    border: 1px solid blue;
+}
+.first-line-section .left-sale{
+    display: flex;
+    flex-direction: column;
+    padding: 15px 45px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+.left-sale p{
+ color: red; 
+ font-size: 16px;  
+ font-weight: 500;
+}
+.left-sale a{
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 2;
+}
+.first-line-section .middle-sale .middle-top{
+    /* border: 2px solid gold; */
+    height: 67%;
+    padding: 40px 30px;
+    background: url(/images/bg-middle.png) no-repeat;
+    background-position: right;
+    background-size: 100%;
+    color: #fff;
+    border-radius: 10px;
+    position: relative;
+}
+.middle-top h3::first-line{
+  font-weight: 300;
+}
+.middle-top h3{
+    font-weight: 200;
+    font-size: 30px;
+}
+.middle-top p{
+    /* border: 2px solid blue; */
+    width: 28%;
+    margin: 20px;
+    font-weight: 200;
+    font-size: 14px;
+}
+.middle-top button{
+    border: none;
+    padding: 10px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: #fff;
+    
+}
+ button:hover{
+opacity: 0.8;
+cursor: pointer;
+}
+.middle-top .carosel-indicator{
+    /* ; */
+    width: 15%;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    color: #000;
+    padding: 5px;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+.middle-bottom{
+    border: 2px solid red ;
+    display: grid;
+    margin-top: 16px;
+    grid-template-columns: 49% 49.5%;
+    height: 30%;
+    gap: 15px;
+}
+.middle-bottom .left, .middle-bottom .right{
+    border: 2px solid blue;
+    border-radius: 10px;
+    background-position: left;
+    
+    padding:20px;
+}
+.middle-bottom .left{
+    background:url(/images/middle-bottom-img1.png);
+}
+.middle-bottom .left p{
+    width: 34%;
+    /* text-decoration: none; */
+    margin-bottom:15px;
+}
+.middle-bottom .left a{
+    color: #000;
+    
+}
+.first-line-section .price{
+    color: green;
+}
+.middle-bottom .right{
+    background: url(/images/middle-bottom-img2.png);background-size: 100% 100%;
+}
+.middle-bottom .right p:first-child{
+   width: 60%;
+   font-size: 20px;
+   font-weight:300;
+   color: #EDFF00;
+   line-height: 1.2;
+   margin-bottom: 15px;
+   /* color: red;  */
+}
+.middle-bottom .right p:first-child::first-line, .middle-bottom .right p{
+    color: #fff;
+}
+.first-line-section .right-sale{
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    gap: 2%;
+}
+.right-sale .top, .right-sale .bottom{
+    height: 49%;
+    border: 2px solid gold;
+    border-radius: 10px;
+    padding: 10px 20px;
+    position: relative;
+}
+.right-sale .top{
+    background: url(/images/right-sale-img1.png);
+    background-size: 100% 100%;
+}
+ .right-sale .top .move p:first-child{
+    line-height: 3;
+    font-size: 12px;
+    font-weight: 400
+} 
+.right-sale .top .move p{
+    font-weight: 600;
+    line-height: 1.2;
+    font-size: 20px;
+}
+.right-sale .top .move button{
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #333333;
+    color: #fff;
+}
+.right-sale .top .move{
+    position: absolute;
+    right: 0;
+    /* border: 1px solid red; */
+    width: 50%;
+}
+.right-sale .bottom{
+    background:url(/images/right-sale-img2.png);
+    background-size: 100% 100%;
+}
+.right-sale .bottom p, .right-sale .bottom h3{
+    color: #fff;
+    width: 30%;
+}
+.right-sale .bottom h3{
+    font-size: 23px;
+}
+.right-sale .bottom p::first-line
