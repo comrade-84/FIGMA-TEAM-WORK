@@ -141,7 +141,7 @@ border-radius: 5px;
 
 
 .first-line-section{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: grid;
     grid-template-columns: 20% 58% 20%;
     gap: 15px;
@@ -149,9 +149,9 @@ border-radius: 5px;
     margin-top: 20px;
     padding: 0 20px;
 }
-.first-line-section .left-sale, .first-line-section .middle-sale , .first-line-section .right-sale{
+/* .first-line-section .left-sale, .first-line-section .middle-sale , .first-line-section .right-sale{
     border: 1px solid blue;
-}
+} */
 .first-line-section .left-sale{
     display: flex;
     flex-direction: column;
@@ -163,12 +163,13 @@ border-radius: 5px;
  color: red; 
  font-size: 16px;  
  font-weight: 500;
+ margin-top: 30px;
 }
 .left-sale a{
     color: black;
     text-decoration: none;
     font-size: 14px;
-    line-height: 2;
+    line-height: 2.15;
 }
 .first-line-section .middle-sale .middle-top{
     /* border: 2px solid gold; */
@@ -220,7 +221,7 @@ cursor: pointer;
     bottom: 20px;
 }
 .middle-bottom{
-    border: 2px solid red ;
+    /* border: 2px solid red ; */
     display: grid;
     margin-top: 16px;
     grid-template-columns: 49% 49.5%;
@@ -228,7 +229,7 @@ cursor: pointer;
     gap: 15px;
 }
 .middle-bottom .left, .middle-bottom .right{
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     border-radius: 10px;
     background-position: left;
     
@@ -236,6 +237,9 @@ cursor: pointer;
 }
 .middle-bottom .left{
     background:url(/images/middle-bottom-img1.png);
+    /* background-color: #fff; */
+    background-size: 100%;
+    /* border: 2px solid red; */
 }
 .middle-bottom .left p{
     width: 34%;
@@ -265,14 +269,14 @@ cursor: pointer;
     color: #fff;
 }
 .first-line-section .right-sale{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
     flex-direction: column;
     gap: 2%;
 }
 .right-sale .top, .right-sale .bottom{
     height: 49%;
-    border: 2px solid gold;
+    /* border: 2px solid gold; */
     border-radius: 10px;
     padding: 10px 20px;
     position: relative;
@@ -311,9 +315,197 @@ cursor: pointer;
 }
 .right-sale .bottom p, .right-sale .bottom h3{
     color: #fff;
-    width: 30%;
+    width: 43%;
+    /* border: 2px solid blue; */
 }
 .right-sale .bottom h3{
     font-size: 23px;
 }
-.right-sale .bottom p::first-line
+.right-sale .bottom p{
+    line-height: 1.2;
+    font-size: 23px;
+    text-transform: capitalize;
+}
+
+
+
+
+/* --------------next-section-------------- */
+
+
+.second-line-section{
+    /* border: 2px solid red; */
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 49.5% 49.5%;
+    padding: 10px 20px;
+    gap: 15px;
+}
+.second-line-section .left, .second-line-section .right{
+    /* border: 2px solid rgb(0, 255, 85); */
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 25px 30px;
+}
+.second-line-section .left .header, .second-line-section .right .head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.second-line-section .left .header a, .head a{
+    color: #000;
+    text-decoration: none;
+    font-size: 12px;
+}
+.second-line-section .left .header h3, .head h3{
+    font-weight: 500;
+}
+.second-line-section .right .head p{
+    margin-left: -300px;
+    /* border: 1px solid red; */
+}
+.second-line-section .left .f-line-logo, .s-line-logo{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    margin-top: 10px;
+}
+.second-line-section .right .f-line{
+    /* border: 2px solid blue; */
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    
+}
+.f-line-logo .img, .s-line-logo .img,  .right .f-line .img{
+    /* border: 2px solid green; */
+    text-align: center;
+    margin-top: 10px;
+}
+/* .f-line-logo .img, .right .f-line .img{
+    margin-top: 15px;
+} */
+.right .f-line p{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+
+
+
+/* -----------------third-section------------- */
+
+.third-line-section{
+    display: grid;
+    /* background-color: red; */
+    grid-template-columns: 70% 30%;
+}
+.third-line-section .left-sect{
+    border: 2px solid rgb(229, 255, 0);
+}
+.left-sect .header{
+    background-color: #1ABA1A;
+    border-radius: 10px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left-sect .header p{
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.left-sect .header .li{
+    line-height: 1;
+    color: #fff;
+    /* display: flex; */
+    
+}
+.third-line-section .header li{
+    list-style: none;
+}
+.third-line-section .middle{
+    background-color: #fff;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 49.5% 49.5%;
+}
+.third-line-section .middle .left{
+    padding: 20px 30px;
+    /* width: 50%; */
+    /* border: 2px solid green; */
+    display: flex;
+    
+}
+.third-line-section .middle .left .prod{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid blue; */
+    width: 15%;
+    margin-top: 30px;
+}
+.third-line-section .middle .left .prod img{
+    width: 80%;
+    margin-top: 10px;
+}
+.third-line-section .middle .large-prod{
+    /* border: 2px solid red; */
+    position: relative;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+}
+.third-line-section .middle .large-prod button{
+   width: 30%;
+   text-align: left;
+   padding: 5px 10px;
+   border-radius: 10px;
+   border: none;
+   background-color: #1ABA1A;
+   color: #fff;
+}
+.third-line-section .middle .large-prod .images{
+    /* width: 50%; */
+    width: 100%;
+    /* margin-left: 80px; */
+}
+.third-line-section .middle .large-prod .images img{
+    width: 100%;
+}
+.third-line-section .middle .right{
+    border: 2px solid red;
+    padding-top: 30px;
+}
+.third-line-section .middle .right p:nth-child(1){
+    margin-left: 40px;
+    font-weight: 350;
+}
+.third-line-section .middle .right p:nth-child(2){
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.right .l-price{
+   margin-top: 20px; 
+}
+.third-line-section .middle .right .price-infos li{
+    /* list-style:circle; */
+    line-height: 1.2;
+    font-size: 14px;
+    font-weight: 400;
+    list-style-position: inside;
+}
+.third-line-section .middle .right .price-infos li::marker{
+  color:gray;
+  font-size: 20px;
+}
+.third-line-section .middle .right .gift a{
+   background-color: #F4FCF4;
+   padding: 5px 10px;
+   border-radius: 10px;
+   text-decoration: none ;
+   
+}
+.third-line-section .middle .right .gift{
+    margin-top: 30px;
+}
