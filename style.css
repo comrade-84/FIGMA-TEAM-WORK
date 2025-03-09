@@ -8,18 +8,141 @@
 
 body{
     font-family: 'poppins, outfit';
-
+    
+    background-color: #E2E4EB;
 }
+
+.nav-section .header .top{
+    /* border: 2px solid blue; */
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+}
+.nav-section .header .top .line-box, .nav-section .header .top  .left-nav{
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-section li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.nav-section li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+}
+.nav-section .line-box{
+    gap: 30px;
+}
+.nav-section .top-divider{
+    width: 2px;
+    height: 20px;
+    background-color: gray;
+}
+.nav-section .left-nav{
+    gap: 30px;
+}
+.line-box li:first-child{
+    background-color:#EBEEF6;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.nav-section .lower{
+    /* border: 2px solid yellow; */
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+}
+.nav-section .lower .right-nav{
+    display: flex;
+    /* border: 2px solid red; */
+    width: 50%;
+    justify-content: space-between;
+}
+.nav-section .lower .right-nav li a {
+    font-weight: 600;
+}
+.nav-section .lower .left-nav{
+    display: flex;
+    /* border: 2px  solid blue; */
+    align-items: center;
+    width: 40%;
+    justify-content: space-between;
+}
+.left-nav .white-space{
+    /* border: 2px solid gold; */
+    display: flex;
+    gap: 10px;
+}
+.left-nav .login{
+    /* border: 1px solid green; */
+    line-height: 1.2;
+}
+.left-nav .login a{
+    font-size: 15px;
+    text-decoration: none;
+    color: #000;
+}
+.left-nav .top-price{
+    display: flex;
+}
+.nav-section .search-box{
+display: flex;
+/* border: 2px solid blue; */
+justify-content: space-between;
+padding: 10px 20px;
+align-items: center;
+background-color: #1ABA1A;
+border-radius: 5px;
+}
+.nav-section .search{
+    display: flex;
+    /* border: 2px solid red; */
+    width: 40%;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 5px 10px;
+    align-items: center;
+}
+.nav-section .search .categories a{
+    color: #000;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.nav-section .search .input{
+    /* border: 2px solid red; */
+    width: 68%;
+    margin-left: 20px;
+}
+.nav-section .search .input input{
+    padding: 10px;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+.search-box .premium  a{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    text-decoration: none;
+}
+
 
 .head{
     background-color: white;
-    width: 80%;
-    margin: auto;
+    width: 100%;
     display: flex;
     margin-top: 10px;
     padding: 20px 0;
     border-radius: 10px;
-    box-shadow: 2px 2px 2px 2px;
 }
 
 .product_nav {
@@ -56,8 +179,7 @@ body{
 .cell_phone_container{
     background-color: white;
     margin: 50px 0 ;
-    margin: auto;
-    width: 80%;
+    width: 100%;
     padding: 50px;
     padding-top: 0;
     border-radius: 10px;
@@ -206,4 +328,208 @@ body{
 .product_popular_content p>span{
     display: block;
     color: rgb(167, 164, 164);
+}
+
+.aside1{
+    background-color: rgb(211, 216, 226);
+    width: 60%;
+    border-radius: 10px;
+    /* padding-left: 50px; */
+    padding: 30px 50px 30px;
+}
+.aside1 h2{
+    font-size: 20px;
+    font-weight: 900;
+}
+.aside1 button{
+    background-color: white;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 30px;
+}
+
+.aside1 p{
+    font-weight: 700;
+    line-height: 5;
+}
+.aside1 ul{
+    list-style-type: none;
+    line-height: 2;
+}
+
+.aside{
+    background-color: rgb(211, 216, 226);
+    margin-top: 30px;
+    margin-bottom: 10px;
+    width: 60%;
+    border-radius: 10px;
+    padding: 30px 30px 30px;
+
+}
+.aside h2{
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 40px;
+}
+.aside h2>span{
+    font-size: 18px;
+    font-weight: 100;
+    padding-left: 40px;
+    /* border:2px solid #1ABA1A; */
+
+}
+.aside_button{
+   background-color: white; 
+   padding: 10px 30px;
+   border: none;
+   border-radius: 10px;
+   margin-bottom: 10px;
+   text-align: left;
+}
+
+.aside .brand{
+    margin: 40px 0 30px;
+    /* text-decoration: solid; */
+    font-weight: bold;
+    display: block;
+}
+.brand_input{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
+.container_by_brand{
+    display: flex;
+
+}
+.checkboxes{
+    display: block;
+
+}
+.checkbox{
+    margin-right: 15px;
+     /* line-height: 8; */
+     margin-top: 9px;
+    margin-bottom: 37px;
+    display: block;
+}
+
+.img2{
+    display: block;
+
+}
+.img{
+    margin-right: 20px;
+    margin-bottom: 24px;
+    /* line-height: 7; */
+    display: block;
+    
+
+}
+.pspan{
+    display: block;
+    /* margin-bottom: 90px; */
+line-height: 3.2;
+margin-top: -16px;
+margin-right: 10px;
+
+    
+}
+p .brand_pspan{
+    margin-top: 90px;
+    /* margin-bottom: 20px; */
+}
+
+.img3{
+    display: flex;
+    margin-left: -10px;
+    /* flex-direction: row-reverse; */
+/* border: 3px solid darkgoldenrod; */
+}
+.img4{
+    height: 2px;
+    width:100% ;
+    /* border:2px solid #1ABA1A; */
+
+}
+.img5{
+    margin-top: -10px;
+    margin-right:-10px;
+
+}
+.img6{
+    margin-top: -10px;
+    margin-left: -10px;
+}
+.btn1{
+    margin: 30px 0;
+}
+.btn2,.btn3{
+    background-color: white;
+    padding: 10px 0;
+    width: 70px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 25px;
+}
+.btn3{
+    margin-left: 20px;
+}
+.btn4{
+    background-color: #1ABA1A;
+    border: none;
+    padding: 10px 8px;
+    color: white;
+    border-radius: 5px;
+}
+.rating_number{
+    margin-bottom: 30px;
+}
+.rating_intup{
+    margin-right: 90px;
+    margin-bottom: 20px;
+
+}
+p span{
+    margin-bottom: 20px;
+    color: #585858;
+}
+.screen_button{
+    margin-bottom: 30px;
+}
+.screen_button button{
+    background-color: white;
+    padding: 9px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.memory{
+    display: flex;
+    gap: 50px;
+    margin-bottom: 30px;
+}
+.memory input{
+    margin-right: 20px;
+}
+.memory_content{
+line-height: 2;
+}
+.condition{
+    margin-bottom: 30px;
+    line-height: 2;
+    /* grid-area: 40px; */
+}
+.condition input{
+    margin-right: 20px;
+}
+/* .product_price{
+
+} */
+.product_container{
+    background-color: white;
+    display: flex;
 }
