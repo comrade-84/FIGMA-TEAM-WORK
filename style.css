@@ -1806,3 +1806,93 @@ font-weight:600;
     border: none;
     border-radius: 10px;
 }
+.plus {
+  display: flex;
+  flex-direction: row;
+  margin: 30px 0;
+}
+.ear img:not(.pls){
+width: 180px;
+}
+.ear {
+  display: flex;
+  flex-direction: row;
+}
+.pls {
+  display: inline-block;
+  background-color: #818181;
+  padding: 10px;
+  height: 50px;
+  margin: auto;
+  border-radius: 50%;
+}
+.wish {
+  width: 140px;
+}
+.wish > #pls{
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+#pls strong{
+font-size: 1.2rem;
+  color: #000;
+}
+#adds {
+  font-size: 0.8rem;
+}
+.adds {
+  display: inline-block;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  border-radius: 10px;
+  margin: 15px 0;
+  padding: 10px;
+  background-color: #19b519;
+}
+.items{
+  margin: 20px 0;
+}
+.items u {
+  text-decoration: none;
+  font-weight: 700;
+}
+.items ul li{
+  display: flex;
+  flex-direction: row;
+  gap: 7px;
+  margin: 10px 0;
+  list-style-type: none;
+}
+.min-single{
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  gap: 7px;
+}
+.minis {
+  padding: 10px;
+  width: 80%;
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+.minis h3{
+  margin: 10px 0;
+}
+.cap{
+  display: flex;
+  width: 30%;
+  gap: 7px;
+  flex-direction: column;
+}
+.mini, .mini1{
+  background-image: url(/images/game.png);
+  background-repeat: no-repeat;
+  height: 33vh;
+  background-size: contain;
+  /* padding: 10px; */
+}
+.mini1 {
+  background-image: url(/images/opad.png);
+}
