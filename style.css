@@ -521,7 +521,7 @@ cursor: pointer;
   grid-template-columns: 70% 30%;
 }
 .third-line-section .left-sect{
-  border: 2px solid rgb(229, 255, 0);
+  /* border: 2px solid rgb(229, 255, 0); */
 }
 .left-sect .header{
   background-color: #1ABA1A;
@@ -595,7 +595,7 @@ cursor: pointer;
   width: 100%;
 }
 .third-line-section .middle .right{
-  border: 2px solid red;
+  /* border: 2px solid red; */
   padding-top: 30px;
 }
 .third-line-section .middle .right p:nth-child(1){
@@ -733,14 +733,14 @@ font-size: 20px;
 color: black;
 font-weight: 600;
 }
-.fourth-section .product-box{
+.fourth-section .product-box, .section-sixth .product-box{
   display: flex;
   align-items: center;
   gap: 10px;
   /* height: 700px; */
   /* border: 1px solid rgb(55, 0, 255); */
 }
-.fourth-section .product-box .produuct{
+.fourth-section .product-box .produuct , .section-sixth .product-box .produuct{
   width: 18%;
   /* border: 1px solid red; */
   height: 500px;
@@ -751,7 +751,7 @@ font-weight: 600;
   margin-bottom: 10px;
 }
 
-.fourth-section .product-box .produuct .image-top{
+.fourth-section .product-box .produuct .image-top, .section-sixth .product-box .produuct .image-top{
 /* border: 2px solid red; */
 /* width: 45px; */
 display: flex;
@@ -759,7 +759,7 @@ float: right;
 gap: 50px;
 /* justify-content: space-between; */
 }
-.fourth-section .product-box .produuct .image-top button{
+.fourth-section .product-box .produuct .image-top button , .section-sixth .product-box .produuct .image-top button{
   background-color: #1ABA1A;
   border: none;
   color: #fff;
@@ -767,16 +767,16 @@ gap: 50px;
   padding: 10px;
   border-radius: 10px;
 }
-.fourth-section .product-box .pro-image{
+.fourth-section .product-box .pro-image , .section-sixth .product-box .pro-image{
   /* border: 2px solid blue; */
   width: 80%;
   margin: 5px auto;
 }
-.fourth-section .product-box .pro-image img{
+.fourth-section .product-box .pro-image img , .section-sixth .product-box .pro-image img{
   width: 100%;
   /* height: 90%; */
 }
-.fourth-section .product-box .next{
+.fourth-section .product-box .next, .section-five nav .next, .section-sixth .product-box .next, .section-five nav .next{
   background-color: #E2E4EB;
   width: 30px;
   border-radius: 10px;
@@ -795,7 +795,7 @@ gap: 50px;
   background-color: #818181;
   border: none;
 }
-.fourth-section .gift {
+.fourth-section .gift , .section-sixth .gift {
   display: flex;
   /* gap: 3px; */
   width: 74%;
@@ -803,35 +803,164 @@ gap: 50px;
   margin-top: 10px;
   /* border: 1px solid blue; */
 }
-.fourth-section .gift a{
+.fourth-section .gift a , .section-sixth .gift a{
   background-color: #F4FCF4;
   padding: 5px 10px;
   border-radius: 10px;
   text-decoration: none ;
   font-size: x-small; 
 }
-.fourth-section .stock img{
+.fourth-section .stock img , .section-sixth .stock img{
   width: 15px;
   margin-right: 10px;
 }
-.fourth-section .stock{
+.fourth-section .stock , .section-sixth .stock{
   margin-top: 20px;
   display: flex;
   align-items: center;
   font-size: 12px;
   /* justify-content: center; */
 }
-.fourth-section .extra{
+.fourth-section .extra , .section-sixth .extra{
 width: 80%;
 margin-top: 15px;
 }
-.fourth-section .extra img{
+.fourth-section .extra img , .section-sixth .extra img{
   width: 30%;
 }
-.fourth-section .l-price{
+.fourth-section .l-price , .section-sixth .l-price{
   font-size: 14px;
 }
 
+
+/* --------------- fifth-section ------------- */
+
+.section-five{
+  /* border: 2px solid red; */
+  margin-top: 20px;
+  /* background-color: red; */
+  padding: 20px;
+}
+.section-five .nav, .section-sixth .nav{
+  display: flex;
+  justify-content: space-between;
+  /* padding: 20px; */
+  /* border: 2px solid gold; */
+  align-items: center;
+}
+.section-five .nav .next{
+    display: flex;
+    gap: 20px;
+    background-color: #cccaca;
+    /* border: 1px solid black; */
+    padding: 2px 10px;
+    border-radius: 10px;
+   
+}
+.section-five .nav h3{
+  text-transform: uppercase;
+} 
+.section-five .nav .next p{
+  line-height: 0.7;
+  font-size: 12px;
+  /* border: 1px solid gold; */
+  width: 10px;
+  word-wrap: break-word;
+}
+.section-five .cards{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.section-five .cards .card{
+  width: 24%;
+  /* border: 2px solid gold; */
+}
+.section-five .cards .card .image{
+  border-radius: 10px;
+}
+.section-five .cards .card .image img{
+  border-radius: 10px;
+}
+.section-five .cards .card h3{
+  margin-top: 10px;
+  font-size: 15px;
+  
+}
+.section-five .cards .card p{
+  font-size: 14px;
+  margin-top: 10px;
+}
+.section-five .cards .card button{
+  border: 1px solid green;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+  color: #1ABA1A;
+}
+
+
+.section-sixth{
+  border: 3px solid gold;
+  margin-top: 30px;
+  padding: 20px
+}
+.section-sixth .phones{
+  display: flex;
+  /* border: 2px solid yellow; */
+  justify-content: space-between;
+
+  margin: 10px 0 80px 0;
+  gap: 40px;
+}
+.section-sixth .phones .phone .line-1, .section-sixth .phones .phone .line-2{
+  display: flex;
+}.section-sixth .phones .hero{
+  background: url(/images/section-six-imgs/image7.png) no-repeat;
+  width: 40%;
+  padding: 20px;
+  background-size: 100% 100%;
+  /* border: 2px solid red; */
+  border-radius: 10px;
+}
+.section-sixth .phones .hero h2{
+width: 30%;
+text-transform: uppercase;
+/* border: 2px solid red; */
+font-weight: 400;
+}
+.section-sixth .phones .hero p{
+  font-size: 13.5px;
+}
+.section-sixth .phones .hero button{
+  background-color: #333333;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.section-sixth .phones .phone .line-1 .prod, .section-sixth .phones .phone .line-2 .prod{
+  display: flex;
+  gap: 20px;
+}
+.section-sixth .phones .phone .line-2{
+  margin-top: 20px;
+}
+.section-sixth .phones .phone .line-1 .prod .text, .section-sixth .phones .phone .line-2 .prod .text ,.section-sixth .phones .phone .line-1 .prod .image, .section-sixth .phones .phone .line-2 .prod .image{
+  /* border: 1px solid red; */
+  width: 50%;
+}
+.section-sixth .phones .phone .line-1 .prod .image img, .section-sixth .phones .phone .line-2 .prod .image img{
+  width: 80%;
+}
+.section-sixth .phones .phone .line-1 .prod .text h3, .section-sixth .phones .phone .line-2 .prod .text h3{
+  font-size: 15px;
+}
+.section-sixth .phones .phone .line-1 .prod .text p, .section-sixth .phones .phone .line-2 .prod .text p{
+  font-size: 13.5px;
+}
 .about {
   background-color: #fff;
   width: 100%;
