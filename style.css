@@ -7,3 +7,186 @@
 body{
     font-family: 'poppins' , outfit;
 }
+.single .nav {
+display: flex;
+flex-direction:row;
+gap: 5px;
+font-weight: 600;
+/* background-color: gray; */
+padding: 15px;
+margin-top: 20px;
+margin-bottom: 30px;
+width: 100%;
+}
+.first{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+}
+a{
+    color:gray;
+    text-decoration: none;
+}
+.nav li{
+    list-style: none;
+}
+.phone{
+    display: flex;
+    flex-direction: column;
+}
+.samu{
+    width: 100%;
+    padding: 10px;
+}
+.smallsamu{
+    width: 100%;
+    padding: 10px;
+}
+.single .part1 p{
+    width: 90%;
+    font-weight: 600;
+}
+.single .ultra .part1{
+    border-bottom: 2px solid gray;
+    margin-top:15px;
+    padding-bottom: 15px;
+}
+.single .part1 span{
+    display: flex;
+    flex-direction: row;
+     margin-top: 10px;
+}
+.single .part1 li{
+    width: 150%;
+    font-size: 12px;
+    margin-top: 10px;
+}
+.single .part1 .shipping{
+    color: green;
+    /* border: 2px solid green; */
+    padding: 2px;
+    border-radius: 5px;
+    margin-top: 10px;
+    border: none; 
+}
+.single .part1 .giftf{
+    color: rgb(233, 69, 97) ;
+    /* border: 2px solid rgb(233, 69, 97); */
+    border-radius: 5px;
+    border: none;
+    padding: 2px;
+}
+.mid{
+    color: gray;
+    
+}
+.single .part2 h3{
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 20px;
+}
+.single .part2 .pricephone{
+    margin-top: 10px;
+}
+.single .part2 .gbs{
+    display: flex;
+    flex-direction:row ;
+    gap: 13px;  
+}
+.single .part2 .gb64{
+border:  2px solid gray;
+margin-top: 10px;
+padding: 2px;
+border-radius: 7px;
+width: 15%;
+font-weight:600;
+}
+.single .part2 .gb6{
+ border: 2px solid green;
+ margin-top: 10px;
+padding: 2px;
+border-radius: 7px;
+width: 15%;
+font-weight:600;
+}
+.single .part2{
+    border-bottom: 2px solid gray;
+    padding-bottom: 20px;
+}
+.single .part3 .card{
+    margin-top: 20px;
+}
+.single .part3 p{
+    font-weight: 600;
+}
+.single .part3 span{
+    color: gray;
+    font-weight: 500;
+}
+.single .part3 .icons{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 20px;
+}
+.single .part3 .samsong{
+    color: green;
+}
+.single .totalprice{
+    background-color: rgb(221, 225, 238);
+    padding: 30px;
+    width: 23%;
+    border-radius: 10px;
+}
+.single .totalprice .span{
+    color: gray;
+    font-weight: 600;
+}
+.single .totalprice .dollar{
+    font-weight: 600;
+    font-size: 25px;
+}
+.single .totalprice .affirm{
+    border-bottom: 2px solid gray;
+}
+.single .totalprice .jpg{
+    width: 100%;
+}
+.single .totalprice .in{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    margin-top: 20px;
+}
+.single .totalprice .button3{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+     gap: 10px;
+}
+.single .totalprice .one{
+    color:black;
+    padding: 11px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-weight: 600;
+    font-size: 20px;
+}
+.single .totalprice .two{
+    color: white;
+    background-color: green;
+    padding: 11px;
+    border-radius: 10px;
+    border: none;
+}
+.single .totalprice .three{
+    color: black;
+    background-color: orange;
+    padding: 11px;
+    border: none;
+    border-radius: 10px;
+}
