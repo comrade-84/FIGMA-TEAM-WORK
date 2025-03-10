@@ -8,9 +8,7 @@ body{
     font-family: 'poppins' , outfit;
     background-color: #E2E4EB;
 }
-.nav-section{
- /* border: 1px solid red; */
-}
+
 .nav-section .header .top{
     /* border: 2px solid blue; */
     padding: 10px 20px;
