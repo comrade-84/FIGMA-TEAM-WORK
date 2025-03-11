@@ -6,6 +6,7 @@
 }
 body {
   font-family: "poppins", outfit;
+  
 }
 .nav-section .header .top {
   /* border: 2px solid blue; */
@@ -980,8 +981,187 @@ font-weight: 400;
 }
 
 
+/* -------------------section-eight--------------------- */
+
+.section-eights{
+  display: flex;
+  /* border: 2px solid red; */
+  padding: 20px;
+  justify-content: space-between;
+  
+}
+.section-eights .card{
+  width: 33%;
+  /* border: 1px solid gold; */
+  /* background-color: red; */
+  border-radius: 10px;
+  padding:  20px;
+  box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.2);
+}
+.section-eights .one{
+background: url(/images/section-8-imgs/hero-1.png);
+color: #fff;
+padding: 50px;
+}
+.section-eights .two{
+  background: url(/images/section-8-imgs/hero-2.png);
+  color: #333333;
+  padding: 40px;
+}
+.section-eights .three{
+  background: url(/images/section-8-imgs/hero-3.png);
+  color: #fff;
+  text-align: center;
+  padding: 55px;
+}
+.section-eights .three p{
+  font-size: 10px;
+  font-weight: 250;
+  margin: 2px auto;
+}
+
+.section-eights .card .nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+}
+.section-eights .card .nav h2{
+  font-size: 20px;
+}
+.section-eights .card .nav p{
+  font-size: 14px;
+}
+.section-eights .card .images{
+  /* background: url(/images/section-8-imgs/hero-1.png); */
+  background-size: 100% 100%;
+  /* padding: 40px; */
+  /* height: 35%; */
+  border-radius: 10px;
+  margin-bottom: 20px;
+  /* color: #fff; */
+  font-weight: 500;
+}
+.section-eights hr{
+  margin-bottom: 20px;
+}
+.section-eights .product-box .line{
+ /* border: 2px solid blue; */
+ margin-top: 10px;
+ display: flex;
+ justify-content: space-between;
+}
+.section-eights .product-box .products{
+  text-align: center;
+ /* margin-left: 20px; */
+}
+.section-eights .product-box .products p{
+  opacity: 0.5;
+}
+.section-eights .card .images p{
+  width: 38%;
+}
+
+/* ---------------------nineth-section---------------------- */
+
+.section-ninee{
+  /* border: 2px solid blue; */
+  padding: 20px;
+  display: flex;
+  gap: 10px;
+}
+.section-ninee .left, .section-ninee .right{
+  width: 50%;
+  color: #fff;
+  /* border: 2px solid gold; */
+  border-radius: 10px;
+  padding: 40px 20px;
+  /* background: url(/images/section-9-imgs/1); */
+  
+}
+.section-ninee .left{
+  background: url(/images/section-9-imgs/image1.png);
+  background-size: 100% 100%;
+}
+.section-ninee .left .text{
+  /* border: 2px solid red; */
+  width: 35%;
+  float: right;
+  /* display: flex; */
+}
+.section-ninee .left .text h2{
+  font-size: 35px;
+  color: #EDFF00;
+  font-weight: 400;
+}
+.section-ninee .left .text p, .section-ninee .left .text a{
+color: #fff;
+font-size: 14px;
+line-height: 1.3;
+}
+.section-ninee .right .text{
+  display: flex;
+  gap: 30px;
+}
+.section-ninee .right .text h2{
+  width: 20%;
+  font-weight: 400;
+  
+}
+.section-ninee .right .text p{
+  width: 50%;
+  font-weight: 250;
+  font-size: 14.5px;
+}
+.section-ninee .right .input{
+  width: 50%;
+  margin-top: 20px;
+  /* border: 1px solid gold; */
+  background-color: #333333;
+  border-radius: 10px;
+}
+.section-ninee .right .input input{
+  border: none;
+  outline: none;
+  padding: 10px;
+  background: transparent;
+
+}
+.section-ninee .right .input a{
+  color: #1ABA1A;
+  text-decoration: none;
+}
+.section-ninee .right{
+  background: url(/images/section-9-imgs/image2.png);
+  background-size: 100% 100%;
+}
 
 
+/* -------------------last-section--------------- */
+.last-sectionn{
+  padding: 20px;
+  /* border: 2px solid gold; */
+  margin-top: 20px;
+}
+.last-sectionn h3{
+  margin-bottom: 30px;
+  font-weight: 500;
+}
+.last-sectionn p{
+  margin-top: 30px;
+  font-size: 13px;
+  width: 95%;
+}
+.last-sectionn h3 + p{
+  width: 82%;
+  /* border: 1px solid red; */
+}
+.last-sectionn a{
+  color: #333333;
+  /* margin-top: 200px; */
+  /* border: 2px solid red; */
+  text-decoration: none;
+}
 .about {
   background-color: #fff;
   width: 100%;
@@ -996,7 +1176,7 @@ font-weight: 400;
   width: 100%;
   border-radius: 10px;
   margin: 10px auto;
-  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.1);
 }
 .best {
   background-image: url(/images/banner.png);
