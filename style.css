@@ -193,13 +193,14 @@ border-radius: 5px;
 }
 .product_phone{
     display: flex;
-    /* justify-content: space-between; */
     /* border: 2px solid chartreuse; */
     gap: 10px;
     width: 100%;
-    /* padding: 10px 0; */
-    /* margin: 10px 0; */
-    /* justify-content: left; */
+}
+.product_buttons{
+    margin-top: 29%;
+    float: right;
+    
 }
 .cell_phone{
     display: flex;
@@ -222,15 +223,12 @@ border-radius: 5px;
     font-size: 30px;
     font-weight: bold;
     padding-top: 20px;
-    font-family: 'poppins, outfit,ital';
-
-    /* margin-left: 100px; */
+    font-family: 'poppins, outfit,ital'
 }
 
 .cell_phone_content1 h3{
     font-size: 30px;
     font-weight: bold;
-    /* padding-top: 20px;   */
 }
 
 .cell_phone_content1 p{
@@ -255,21 +253,13 @@ border-radius: 5px;
     background-repeat: no-repeat;
     background-size: cover;
     padding-left: 80px;
-    /* padding-bottom: 40px; */
     width: 100%;
     height: 100%;
     display: flex;
     border-radius: 20px;
-
-    /* position: relative; */
-    margin: 0;
     
 }
-.product_phone2{
-    width:40%;
-    /* border: 2px solid darkgreen; */
-    /* display: flex; */
-}
+
 .cell_phone_content2 h2{
     font-size: 30px;
     font-weight: bold;
@@ -332,9 +322,7 @@ border-radius: 5px;
 
 .aside1{
     background-color: rgb(211, 216, 226);
-    width: 60%;
     border-radius: 10px;
-    /* padding-left: 50px; */
     padding: 30px 50px 30px;
 }
 .aside1 h2{
@@ -362,7 +350,6 @@ border-radius: 5px;
     background-color: rgb(211, 216, 226);
     margin-top: 30px;
     margin-bottom: 10px;
-    width: 60%;
     border-radius: 10px;
     padding: 30px 30px 30px;
 
@@ -375,7 +362,7 @@ border-radius: 5px;
 .aside h2>span{
     font-size: 18px;
     font-weight: 100;
-    padding-left: 40px;
+    padding-left: 20px;
     /* border:2px solid #1ABA1A; */
 
 }
@@ -390,7 +377,6 @@ border-radius: 5px;
 
 .aside .brand{
     margin: 40px 0 30px;
-    /* text-decoration: solid; */
     font-weight: bold;
     display: block;
 }
@@ -411,7 +397,6 @@ border-radius: 5px;
 }
 .checkbox{
     margin-right: 15px;
-     /* line-height: 8; */
      margin-top: 9px;
     margin-bottom: 37px;
     display: block;
@@ -424,14 +409,12 @@ border-radius: 5px;
 .img{
     margin-right: 20px;
     margin-bottom: 24px;
-    /* line-height: 7; */
     display: block;
     
 
 }
 .pspan{
     display: block;
-    /* margin-bottom: 90px; */
 line-height: 3.2;
 margin-top: -16px;
 margin-right: 10px;
@@ -440,13 +423,11 @@ margin-right: 10px;
 }
 p .brand_pspan{
     margin-top: 90px;
-    /* margin-bottom: 20px; */
 }
 
 .img3{
     display: flex;
     margin-left: -10px;
-    /* flex-direction: row-reverse; */
 /* border: 3px solid darkgoldenrod; */
 }
 .img4{
@@ -476,7 +457,7 @@ p .brand_pspan{
     margin-right: 25px;
 }
 .btn3{
-    margin-left: 20px;
+    margin-left: 10px;
 }
 .btn4{
     background-color: #1ABA1A;
@@ -513,7 +494,7 @@ p span{
     margin-bottom: 30px;
 }
 .memory input{
-    margin-right: 20px;
+    margin-right: 10px;
 }
 .memory_content{
 line-height: 2;
@@ -521,15 +502,227 @@ line-height: 2;
 .condition{
     margin-bottom: 30px;
     line-height: 2;
-    /* grid-area: 40px; */
 }
 .condition input{
     margin-right: 20px;
 }
-/* .product_price{
 
-} */
 .product_container{
     background-color: white;
+    padding: 30px;
     display: flex;
+}
+
+.product_best_seller_container{
+    /* border: 2px solid #1ABA1A; */
+    padding-left: 15px;
+    margin: 0;
+}
+.product_best_seller_content_boxes{
+    /* border: 2px solid red; */
+    width: 100%;
+    display: flex;
+    gap: 40px;
+
+
+}
+
+.img9{
+    margin-top: 200px;
+}
+.img7{
+    margin-left: 230px;
+}
+.img10{
+    margin: 0 auto;
+}
+
+.seller_button{
+    display: flex;
+    gap: 100px;
+    margin-bottom: 30px;
+}
+.seller_button button{
+    background-color: #1ABA1A;
+    color: rgba(255, 255, 255, 0.801);
+    border-radius: 5px;
+    border: none;
+    padding: 5px 12px;
+    text-align: left;
+}
+.seller_button button>span{
+    font-size: 19px;
+    color: white;
+    
+}
+
+.product_span{
+    color: #585858;
+    line-height: 2;
+    text-decoration: solid;
+    padding: 100px;
+    font-weight: bold;
+}
+.seller{
+    text-decoration: solid;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.product_number{
+    color: red;
+    font-size: 25px;
+    text-decoration: solid;
+    font-weight: bolder;
+    line-height: 2;
+}
+.product_number>del{
+    font-size: 20px;
+    font-weight: 800;
+    color: #9b9a9a;
+
+}
+.free{
+    color: #1ABA1A;
+    font-weight: bolder;
+    border: none;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: #ebe6e6;
+    padding: 10px ;
+    border-radius: 10px;
+}
+.product_best_seller{
+    font-size: 23px;
+    text-decoration: solid;
+    font-weight: bolder;
+}
+.best_seller{
+    background-color:rgb(221, 221, 220);
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+.pre_order,.seller_contact{
+    font-size: 19px;
+}
+
+.product_popular_p{
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 10px;
+
+}
+.hr{
+    margin-top: 40px;
+    width: 85%;
+    margin-left: 90px;
+    margin-bottom: 40px;
+
+}
+.show_result{
+    display: flex;
+    gap: 100px;
+    margin-left: 30px;
+}
+.show_content{
+    gap: 20px;
+    margin-bottom: 30px;
+    /* border: 1px solid #1ABA1A; */
+}
+b{
+    color: #adabab;
+}
+.show_content button{
+    background-color:#f5f5f5; 
+    padding: 20px 2px 20px 20px;
+    border: none;
+    text-align: center;
+    border-radius: 10px;
+}
+.show_content span{
+    color: #adabab;
+    margin: 0 30px;
+}
+
+
+.show_content p{
+    font-weight: bolder;
+    font-size: 20px;
+}
+.btn7{
+    background-color:#f5f5f5; 
+    padding: 5px 30px;
+}
+.image1{
+    margin-left: 70px;
+    padding-right: 20px;
+}
+
+ .show_boxes{
+    display: flex;
+    /* border: 1px solid #1ABA1A; */
+    margin-left: 30px;
+    gap: 60px;
+ }
+
+ .seller_div{
+    display: flex;
+    gap: 100px;
+    margin-bottom: 10px;
+    border: 1px solid red;
+
+ }
+ .seller_div button{
+        background-color: #1ABA1A;
+        color: rgba(255, 255, 255, 0.801);
+        border-radius: 5px;
+        border: none;
+        padding: 6px 15px;
+        text-align: left;
+ }
+
+ .seller_div button>span{
+    font-size: 19px;
+    color: white;
+    
+}
+.btn6{
+    background-color: black;
+    color:rgba(255, 255, 255, 0.801); 
+    border-radius: 5px;
+    border: none;
+    padding:10px;
+
+    text-align: left;
+}
+.seller{
+    display: flex;
+    gap: 160px;
+    margin-bottom: 10px;
+}
+.best_GIFT{
+    color: red;
+    background-color: rgb(240, 225, 196);
+    padding: 10px;
+    border-radius: 10px;
+    border:none;
+}
+.show{
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.show1{
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.show2{
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+    margin-left: 30px;
 }
