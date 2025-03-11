@@ -827,6 +827,9 @@ margin-top: 15px;
 .fourth-section .l-price , .section-sixth .l-price{
   font-size: 14px;
 }
+.fourth-section h3 {
+  margin: 20px 0;
+}
 
 
 /* --------------- fifth-section ------------- */
