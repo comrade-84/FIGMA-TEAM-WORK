@@ -1896,3 +1896,36 @@ font-size: 1.2rem;
 .mini1 {
   background-image: url(/images/opad.png);
 }
+.heads{
+  display: flex;
+  gap: 60px;
+  margin: 10px 0 30px;
+}
+.heads h4:not(.des){
+  font-weight: 400;
+  color: #ccc;
+}
+.review {
+  padding: 10px;
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.2);
+width: 98%;
+margin: 20px auto;
+border-radius: 10px;
+}
+.review > p {
+  font-size: 0.83rem;
+  font-weight: 400;
+}
+.review p{
+line-height: 23px;
+margin: 15px 0;
+}
+.tab {
+  text-align: center;
+}
+.review .more{
+  color: #0084ff;
+  font-weight: 600;
+  display: inline-block;
+  padding: 0 0 20px;
+}
