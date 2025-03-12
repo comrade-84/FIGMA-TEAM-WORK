@@ -287,6 +287,8 @@ body{  font-family: 'poppins, outfit';
 }
 .product_popular_p{
     line-height: 5;
+    margin-left: 20px;
+    
 }
 .product_boxes{
     display: block;
@@ -666,7 +668,7 @@ b{
     display: flex;
     gap: 100px;
     margin-bottom: 10px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 
  }
  .seller_div button{
